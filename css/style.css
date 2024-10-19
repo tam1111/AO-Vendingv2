@@ -708,17 +708,17 @@ section{
     animation: nav-links .4s linear backwards;
     animation-delay: calc(.2s * var(--i));
   }
-  
+
   @keyframes nav-links{
     0%{
-      transform:translateX(-50rem) skew(90deg);
+      transform:translateX(-50rem);
       opacity: 0;
     }
 }
 
-  #menu-bar.fa-times{
-    transform: rotate(180deg);
-  }
+#menu-bar.fa-times{
+  transform: rotate(180deg);
+}
 
   .home .flex .content{
     text-align: center;
