@@ -84,7 +84,7 @@ section{
 }
 
 .header .flex .navbar a:hover{
-  color:var(--orange);
+  color:var(--green);
 }
 
 #menu-bar{
